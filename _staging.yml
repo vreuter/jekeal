@@ -8,5 +8,5 @@
 # in the slides. Change this accordingly.
 url: "https://vreuter.github.io"
 # Change this to the name of your repository. Make sure it starts with the forward slash "/"
-baseurl: "/jekeal"
+baseurl: "/presentations/KipnisLab_2017-03-13"
 destination: docs

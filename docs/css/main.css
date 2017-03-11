@@ -1,3 +1,10 @@
+.reveal img.logo {
+  width: 25%; }
+.reveal img.img-responsive {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  text-align: center; }
 .reveal .notes {
   display: none; }
 .reveal .go-wide {
@@ -5,7 +12,8 @@
 .reveal .nowrap {
   white-space: nowrap; }
 
-.reveal {
+.highlight, .reveal .highlight {
+  background: #aaa;
   /* Comment */
   /* Error */
   /* Keyword */
@@ -65,138 +73,139 @@
   /* Name.Variable.Global */
   /* Name.Variable.Instance */
   /* Literal.Number.Integer.Long */ }
-  .reveal .highlight {
-    background: #ffffff; }
-  .reveal .highlight .c {
+  .highlight .c {
     color: #999988;
     font-style: italic; }
-  .reveal .highlight .err {
+  .highlight .err {
     color: #a61717;
     background-color: #e3d2d2; }
-  .reveal .highlight .k {
+  .highlight .k {
     font-weight: bold; }
-  .reveal .highlight .o {
+  .highlight .o {
     font-weight: bold; }
-  .reveal .highlight .cm {
+  .highlight .cm {
     color: #999988;
     font-style: italic; }
-  .reveal .highlight .cp {
+  .highlight .cp {
     color: #999999;
     font-weight: bold; }
-  .reveal .highlight .c1 {
+  .highlight .c1 {
     color: #999988;
     font-style: italic; }
-  .reveal .highlight .cs {
+  .highlight .cs {
     color: #999999;
     font-weight: bold;
     font-style: italic; }
-  .reveal .highlight .gd {
+  .highlight .gd {
     color: #000000;
     background-color: #ffdddd; }
-  .reveal .highlight .gd .x {
+  .highlight .gd .x {
     color: #000000;
     background-color: #ffaaaa; }
-  .reveal .highlight .ge {
+  .highlight .ge {
     font-style: italic; }
-  .reveal .highlight .gr {
+  .highlight .gr {
     color: #aa0000; }
-  .reveal .highlight .gh {
+  .highlight .gh {
     color: #999999; }
-  .reveal .highlight .gi {
+  .highlight .gi {
     color: #000000;
     background-color: #ddffdd; }
-  .reveal .highlight .gi .x {
+  .highlight .gi .x {
     color: #000000;
     background-color: #aaffaa; }
-  .reveal .highlight .go {
+  .highlight .go {
     color: #888888; }
-  .reveal .highlight .gp {
+  .highlight .gp {
     color: #555555; }
-  .reveal .highlight .gs {
+  .highlight .gs {
     font-weight: bold; }
-  .reveal .highlight .gu {
+  .highlight .gu {
     color: #aaaaaa; }
-  .reveal .highlight .gt {
+  .highlight .gt {
     color: #aa0000; }
-  .reveal .highlight .kc {
+  .highlight .kc {
     font-weight: bold; }
-  .reveal .highlight .kd {
+  .highlight .kd {
     font-weight: bold; }
-  .reveal .highlight .kp {
+  .highlight .kp {
     font-weight: bold; }
-  .reveal .highlight .kr {
+  .highlight .kr {
     font-weight: bold; }
-  .reveal .highlight .kt {
+  .highlight .kt {
     color: #445588;
     font-weight: bold; }
-  .reveal .highlight .m {
+  .highlight .m {
     color: #009999; }
-  .reveal .highlight .s {
+  .highlight .s {
     color: #d14; }
-  .reveal .highlight .na {
+  .highlight .na {
     color: #008080; }
-  .reveal .highlight .nb {
+  .highlight .nb {
     color: #0086B3; }
-  .reveal .highlight .nc {
+  .highlight .nc {
     color: #445588;
     font-weight: bold; }
-  .reveal .highlight .no {
+  .highlight .no {
     color: #008080; }
-  .reveal .highlight .ni {
+  .highlight .ni {
     color: #800080; }
-  .reveal .highlight .ne {
+  .highlight .ne {
     color: #f75555;
     font-weight: bold; }
-  .reveal .highlight .nf {
+  .highlight .nf {
     color: #f75555;
     font-weight: bold; }
-  .reveal .highlight .nn {
+  .highlight .nn {
     color: #f75555; }
-  .reveal .highlight .nt {
+  .highlight .nt {
     color: #f7fa59; }
-  .reveal .highlight .nv {
+  .highlight .nv {
     color: #f7fa59; }
-  .reveal .highlight .ow {
+  .highlight .ow {
     font-weight: bold; }
-  .reveal .highlight .w {
+  .highlight .w {
     color: #bbbbbb; }
-  .reveal .highlight .mf {
+  .highlight .mf {
     color: #009999; }
-  .reveal .highlight .mh {
+  .highlight .mh {
     color: #009999; }
-  .reveal .highlight .mi {
+  .highlight .mi {
     color: #009999; }
-  .reveal .highlight .mo {
+  .highlight .mo {
     color: #009999; }
-  .reveal .highlight .sb {
+  .highlight .sb {
     color: #d14; }
-  .reveal .highlight .sc {
+  .highlight .sc {
     color: #d14; }
-  .reveal .highlight .sd {
+  .highlight .sd {
     color: #d14; }
-  .reveal .highlight .s2 {
+  .highlight .s2 {
     color: #d14; }
-  .reveal .highlight .se {
+  .highlight .se {
     color: #d14; }
-  .reveal .highlight .sh {
+  .highlight .sh {
     color: #d14; }
-  .reveal .highlight .si {
+  .highlight .si {
     color: #d14; }
-  .reveal .highlight .sx {
+  .highlight .sx {
     color: #d14; }
-  .reveal .highlight .sr {
+  .highlight .sr {
     color: #009926; }
-  .reveal .highlight .s1 {
+  .highlight .s1 {
     color: #d14; }
-  .reveal .highlight .ss {
+  .highlight .ss {
     color: #990073; }
-  .reveal .highlight .bp {
+  .highlight .bp {
     color: #999999; }
-  .reveal .highlight .vc {
+  .highlight .vc {
     color: #008080; }
-  .reveal .highlight .vg {
+  .highlight .vg {
     color: #008080; }
-  .reveal .highlight .vi {
+  .highlight .vi {
     color: #008080; }
-  .reveal .highlight .il {
+  .highlight .il {
     color: #009999; }
+
+.reveal .highlight {
+  background-color: #333; }
