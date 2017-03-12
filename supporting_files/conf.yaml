@@ -1,0 +1,25 @@
+metadata:
+  sample_annotation: ratbrain.csv
+  output_dir: $PROCESSED/ratbrain
+  results_subdir: results
+  submission_subdir: submission
+  pipelines_dir: $CODEBASE/pipelines
+
+derived_columns: [data_path]
+data_sources:
+  source1: "$RAWDATA/sra_bam/{Run}.bam"
+
+pipeline_config:
+  wgbs.py: wgbs.yaml
+  rnaTopHat.py: rnaTopHat.yaml
+
+pipeline_args:
+  wgbs.py:
+    "--epilog": null  
+
+genomes:
+  rat: rn6
+
+username: vpr9v
+email: vreuter@virginia.edu
+
