@@ -1,0 +1,19 @@
+Include bit about construction (de novo) DNMT3A/B vs. maintenance crew DNMT1.
+Emphasize the role of 5mC derivatives like 5hmC, 5fC, and 5caC as demethylation intermediates.
+Essentially, the TET family performs the conversion to a derivative, allowing the DNA repair machinery to work.
+With AID (activation-induced deamination) or APOBEC (apolipoprotein B mRNA editing enzyme, catalytic polypeptide-like), conversion is directly to thymine or 5hmC.
+Base excision and repair machinery can operate on 5caC, 5fC, 5hmU, or thymine to restore cytosine, but unmethylated.
+
+PCB ASD:
+  - Interaction between epigenetic modifications themselves
+    - Negative association here between histone variant (H2A.Z) and methylation
+        - Regions of DNA hypomethylation enriched for histone variant H2A.Z
+    - Can assess this sort of interaction with a combination of experimental and analytical tools
+      - ChIP-Seq
+      - WGBS
+  - Interaction with the environment (PCB's produce epigenetic changes)
+  - Connection with LOOPER
+    - Simplifies process of running analysis for multiple protocols
+    - Protocol mapping
+    - Library annotation in sample sheet
+
