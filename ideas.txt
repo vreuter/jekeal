@@ -17,3 +17,9 @@ PCB ASD:
     - Protocol mapping
     - Library annotation in sample sheet
 
+PCB-in-ASD paper focuses on methylation at more of a global/regional scale, does little with regard to epialleles.
+  - Epipolymorphism
+  - Delta combinatorial entropy
+  - Extensions to other than group-of-four
+
+
