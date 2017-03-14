@@ -1,0 +1,22 @@
+Run,genome,Experiment,ScientificName,sample_name,read_type,organism,library
+SRR1810930,rn6,SRX883589,Rattus norvegicus,Female1,single,rat,WGBS
+SRR1810932,rn6,SRX883591,Rattus norvegicus,Female3,single,rat,WGBS
+SRR1810933,rn6,SRX883592,Rattus norvegicus,Estradiol1,single,rat,WGBS
+SRR1810934,rn6,SRX883593,Rattus norvegicus,Estradiol2,single,rat,WGBS
+SRR1810936,rn6,SRX883595,Rattus norvegicus,Estradiol3,single,rat,WGBS
+SRR1810937,rn6,SRX883596,Rattus norvegicus,Male1,single,rat,WGBS
+SRR1810938,rn6,SRX883597,Rattus norvegicus,Male2,single,rat,WGBS
+SRR1810939,rn6,SRX883598,Rattus norvegicus,Male3,single,rat,WGBS
+SRR3152425,rn6,SRX883590,Rattus norvegicus,Female2,single,rat,WGBS
+SRR1813698,rn6,SRX886119,Rattus norvegicus,GSM1616876,paired,rat,rnaTopHat
+SRR1813699,rn6,SRX886120,Rattus norvegicus,GSM1616877,paired,rat,rnaTopHat
+SRR1813700,rn6,SRX886121,Rattus norvegicus,GSM1616878,paired,rat,rnaTopHat
+SRR1813701,rn6,SRX886122,Rattus norvegicus,GSM1616879,paired,rat,rnaTopHat
+SRR1813702,rn6,SRX886123,Rattus norvegicus,GSM1616880,paired,rat,rnaTopHat
+SRR1813703,rn6,SRX886124,Rattus norvegicus,GSM1616881,paired,rat,rnaTopHat
+SRR1813704,rn6,SRX886125,Rattus norvegicus,GSM1616882,paired,rat,rnaTopHat
+SRR1813705,rn6,SRX886126,Rattus norvegicus,GSM1616883,paired,rat,rnaTopHat
+SRR1813706,rn6,SRX886127,Rattus norvegicus,GSM1616884,paired,rat,rnaTopHat
+SRR1813707,rn6,SRX886128,Rattus norvegicus,GSM1616885,paired,rat,rnaTopHat
+SRR1813708,rn6,SRX886129,Rattus norvegicus,GSM1616886,paired,rat,rnaTopHat
+SRR1813709,rn6,SRX886130,Rattus norvegicus,GSM1616887,paired,rat,rnaTopHat
